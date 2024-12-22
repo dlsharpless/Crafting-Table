@@ -1,3 +1,5 @@
+'''Introduction to Programming [Engineering Basics]'''
+
 # print('Hello world!')
 
 # A = 3
@@ -52,10 +54,10 @@
 # while USER_INPUT.lower() != "stop":
 #     USER_INPUT = input('Enter something (type "stop" to end): ')
 
-# for i in range(10):
-#     if i != 3:
-#         print(i)
-#     if i == 7:
+# for I in range(10):
+#     if I != 3:
+#         print(I)
+#     if I == 7:
 #         break
 
 # PASSWORD = "password"
@@ -72,12 +74,12 @@
 
 # PASSWORD = "password"
 # USER_INPUT = ''
-# for i in range(3):
+# for I in range(3):
 #     USER_INPUT = input('Enter password:')
 #     if USER_INPUT == PASSWORD:
 #         print("Welcome")
 #         break
-#     if i == 2:
+#     if I == 2:
 #         print("Unauthorized access")
 
 # GROCERY_LIST = ['apple', 'milk', 'banana']
@@ -86,8 +88,44 @@
 # GROCERY_LIST[2] = 'soda'
 # print(GROCERY_LIST)
 
-GROCERY_LIST = ['apple', 'milk', 'banana']
-GROCERY_LIST.append('chocolate')
-GROCERY_LIST.remove('banana')
-GROCERY_LIST.sort()
-print(GROCERY_LIST)
+# GROCERY_LIST = ['apple', 'milk', 'banana']
+# GROCERY_LIST.append('chocolate')
+# GROCERY_LIST.remove('banana')
+# GROCERY_LIST.sort()
+# print(GROCERY_LIST)
+
+# CAR_DICTIONARY = {
+#     'brand': 'Ford',
+#     'model': 'Mustang',
+#     'year': 1964
+# }
+# CAR_DICTIONARY['color'] = 'red'
+# print(CAR_DICTIONARY.values())
+# print(CAR_DICTIONARY.keys())
+
+# YOUR_GROCERY = {'apple', 'banana', 'milk'}
+# MY_GROCERY = {'banana', 'bread', 'chocolate'}
+# print(YOUR_GROCERY.union(MY_GROCERY))
+# print(YOUR_GROCERY.intersection(MY_GROCERY))
+
+# GROCERY_LIST = {'apple', 'banana', 'milk', 'bread'}
+# # Print first single element found
+# for ITEM in GROCERY_LIST:
+#     print(ITEM)
+#     break
+# # Print specified element if found
+# TARGET_OUTPUT = 'milk'
+# for ITEM in GROCERY_LIST:
+#     if ITEM == TARGET_OUTPUT:
+#         print(ITEM)
+
+# def greet():
+#     '''Greet the user'''
+#     print('Hello, everyone!')
+# greet()
+
+def add_numbers(x, y):
+    '''Add given numbers together'''
+    return x + y
+RESULT = add_numbers(5, 3)
+print('The result is:', RESULT)
