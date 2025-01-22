@@ -14,7 +14,7 @@ const int d5 = 5;
 const int d6 = 6;
 const int d7 = 7;
 const int pin_BL = 10; // arduino pin wired to LCD backlight circuit
-LiquidCrystal lcd( RS,  EN,  d4,  d5,  d6,  d7);
+LiquidCrystal lcd(RS,  EN,  d4,  d5,  d6,  d7);
 
 // smiley face
 byte smiley[8] = {
